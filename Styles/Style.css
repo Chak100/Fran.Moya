@@ -1,0 +1,739 @@
+*{margin:0 ;
+padding: 0;
+box-sizing:border-box;
+}
+
+
+
+.encabezado{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 13PX 0px;
+    align-content: center;
+    z-index: 11;
+    position: fixed;
+    box-sizing: border-box;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#FFFFFF
+    
+}
+
+.encabezado__elemento{
+    align-items: center;
+    text-align: center;
+}
+
+.encabezado__elemento-img{
+    width: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 5px;
+    padding: 5px;
+}
+.encabezado__contenedor{ 
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: auto;
+    font-size: 1.5rem;
+    background-color:#FFFFFF;
+    align-items:center;
+    width: 100%;
+    top: 0;
+    border-color: gray;
+    border-width: 1px;
+    list-style: none;
+    margin-left: 49vh;
+
+}
+
+
+.logo__shanti {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.logo__shanti img {
+    margin-top: 70px;
+
+    }
+
+    .nav__responsive-ul{
+        display: none;
+    
+    }
+
+.nav{
+    background-color: white;
+
+}
+.nav__ul{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.nav__li a{
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    color: #535353;
+    list-style: none;
+}
+
+.nav__li{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 600 ;
+    list-style: none;
+}
+
+.nav__li :hover{
+    color: #111920;
+    text-decoration: underline;
+}
+/*----------------- APLICANDO MEDIAQUERYS PRIMERA VERSION PARA MOBILES HASTA 320----------------- */
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    
+    .encabezado {
+        display: none;
+    }
+    .nav__ul {
+        display:none;
+    }
+/*     .nav__responsive-ul{
+        display:inline-flex;
+        padding: 3px;
+        text-decoration: none;
+        list-style: none;
+        } */
+
+    .logo__shanti{
+        align-items: center;
+            
+    }
+    .logo__shanti img{
+        text-align: center;
+        margin: 0px;
+        align-items: center;
+
+            
+    }
+    .texto__inicio {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+        align-items: center;
+        align-content: center;
+    }
+
+    .banner__inicial img{
+        align-items: center;
+        
+        
+    }
+    .section__primera{
+        display: block;
+        flex-direction: column;
+    }
+    .textbanner1{
+        display: block;
+        align-items: center;
+  
+    } 
+    .textbanner2{
+        display: block;
+        align-items: center;
+  
+    } 
+}
+    
+
+.menu__item{
+    background-color: #ffff;
+    font-size: 1.5rem;
+    list-style: none;
+    width: 100%;
+    display: inline;
+    text-align: center;
+    margin-left: 13vh;
+    margin-right: 13vh;
+    margin-top: 100px;
+    z-index:2;
+}
+
+
+.texto__inicio{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 50px;
+    color:  #707070;
+    border-top: 30px black;
+    align-items: center;
+}
+
+.banner__inicial{
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner__inicial img{
+    width: 100%;
+    opacity: 90%;
+}
+
+.section__primera{
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 30px 20px;
+    margin: 50px 50px 50px 50px;
+       
+}
+
+.textbanner1{
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-between;
+
+
+}
+.textbanner1 h3{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 50px;
+    padding: 50px;
+    width: 100%;
+    height: 500px;
+
+}
+
+.textbanner1 h3 a{
+    width: 300px;
+}
+.textbanner1__shanti {
+    background-image:url(../Fotos/servicio_pizza.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.textbanner1__menu {
+    background-image:url(../Fotos/postre_trifle.jpeg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.textbanner1 a{
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    color: #89c4f5;
+    text-shadow: #535353;
+    list-style: none;
+    align-items: middle;
+    
+}
+
+.textbanner1 h3 :hover {
+    font-size: 3rem;
+}
+
+.textbanner2{
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-between;
+
+
+}
+.textbanner2 h3{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 50px;
+    padding: 50px;
+    width: 100%;
+    height: 500px;
+}
+
+.textbanner2 h3 a{
+    width: 300px;
+}
+.textbanner2 h3 :hover {
+font-size: 3rem;
+}
+
+.textbanner2__galeria {
+    background-image:url(../Fotos/Langostinos.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.textbanner2__contacto {
+    background-image:url(../Fotos/flor_mesa.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.textbanner2 a{
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    color: #89c4f5;
+    text-shadow: #535353;
+    list-style: none;
+    align-items: middle;
+}
+
+.section__segunda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin:  40px;
+    
+}
+
+.txt__consulta{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.txt__consulta p{
+    margin-top: 20px;
+}
+.txt__consulta ul li{
+    list-style: none;
+    line-height: 4rem;
+    font-size: 30px;
+   
+}
+
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 150px;
+    align-items: left;
+}
+
+.txt__consulta h2{
+    
+    font-size: 3rem;
+}
+
+
+.Formulario{
+    margin-top: 30px;
+    align-items: center;
+    display: block;
+    width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label { 
+
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.form_element{
+    position: relative;
+    clear: both;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    display: block;
+    border: #535353;
+    float: left;
+    
+}
+
+input{
+    background: #fff;
+    border: none;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #888;
+    line-height: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 0;
+    background: #fdfdfd;
+    font-size: 15px;
+
+
+}
+
+textarea{
+    border-width: 2px;
+    border-style: inset;
+    border-color: rgb(118, 118, 118), rgb(133, 133, 133);
+    width: 400px;
+    
+
+}
+
+.button{
+    font-size: 15rem;
+    display: inline-flex;
+    margin-bottom: 10px;
+
+}
+
+footer{
+    background-color: lightgray;   
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+.piepagina{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.footer__1{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+/*     margin-top: 1vw;
+    margin-bottom: 1vw;  */
+/*     margin-left: 5vw; */
+    align-items: baseline;
+}
+
+.footer__1-lista a{
+   list-style: none;
+   line-height: 30px;
+   text-decoration: none;
+   color: black;
+   margin-top: 10px;
+}
+
+.footer__1-lista li {
+    list-style: none;
+}
+.footer__2{
+    display: inline;
+    padding: 10px;
+/*     margin-left: 20vh; */
+/*     line-height: 40px; */
+
+}
+
+.footer__2 p{
+    line-height: 40px;
+    align-items: center;
+}
+
+.footer__3{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    align-content: flex-end;
+/*     margin-left: 200px; */
+}
+
+.footer__3 a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+        
+ }
+
+/* -------------------------Contacto y presupuesto------------------------- */
+
+.main__contacto{
+
+    background-color: #F8F4F3;   
+}
+.titulo__contacto{
+    background-image: url(../Fotos/bocaditos\ de\ jamón.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    width: 100%;
+
+}
+
+.titulo__contacto h2{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15vh;
+    font-weight: 600;
+    padding: 300px;
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.img__contacto{
+    width: 100%;
+    height: 800px;
+}
+
+.texto__contacto {
+    color: darkgrey;
+    font-family: "Poppins", Sans-serif;
+    font-size: 3.5vh;
+    font-weight: 600;
+    margin: 40px 40px 40px 40px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* ----------Shanti---------- */
+
+.introudccion__shanti {
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 5rem;
+    text-align: center;
+    border-style: double;
+    border-color: #6fa8dc;
+}
+
+.titulo__shanti{
+    font-size: 4vh;
+    margin-bottom: 3rem;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.shanti { 
+    display: flex;
+}
+
+.art_shanti1{
+    display:inline-flex ;
+    flex-direction:row ;
+}
+.art_shanti1 p {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 30px;
+    font-family:"Poppins", Sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.art_shanti1 img {
+    margin-left: 5vh;
+}
+.art_shanti2{
+    display:inline-flex ;
+    flex-direction:row ;
+    margin-bottom: 3vh;
+}
+.art_shanti2 p {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.art_shanti2 img {
+    margin-right: 5vh;
+}
+
+/* Sección Menu */
+
+.texto__menu1 {
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 4vh;
+    font-weight: 200;
+    margin: 5rem;
+    text-align: center;
+}
+
+.titulo__menu{
+
+    margin-bottom: 3rem;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.subtitulo__menu {
+    margin-left: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: orangered;
+}
+.texto__menu2{
+    color: #042646; 
+    font-family: "Poppins", Sans-serif;
+    font-size: 2.5vh;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 5vh;
+    background-color: #f7f6D9;
+}
+
+.opciones__menu{
+    display: inline flex;
+    flex-direction: column;
+
+}
+
+ .section__menu{
+    background-image: url(../Fotos/fondo\ de\ pantalla\ comida.jpg);
+    backdrop-filter: opacity(80%);
+   
+}
+
+.opciones__menu h4{
+    color: orangered; 
+    background-color: #ddd;
+    border-color: #535353;
+    border-radius: 30px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.texto__menu3{
+    color: #111920; 
+    font-family: "Poppins", Sans-serif;
+    font-size: 2.5vh;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5vh;
+    padding: 10px;
+    text-align: left;
+    background-color: #F7F6D9;
+
+
+}
+
+.contenedor__menu1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    padding: 5px;
+}
+
+.contenedor__menu2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    padding: 5px;
+}
+
+
+/* ----------GALERIA----------- */
+
+.main__grid-galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 20% 1fr 1fr; 
+    grid-gap: 5px;
+    grid-auto-flow: row;
+    justify-items: center;
+    grid-template-columns: auto;    
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "galeria galeria galeria"
+    "Descripción Descripción Descripción"
+
+}
+
+
+.titulo__galeria{
+
+    display: flex;
+    grid-area: titulo;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.imagenes__galeria{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid black;
+    grid-area: galeria;
+    align-items: center;
+    text-align: center;
+
+ }
+
+.imagenes__galeria img{
+    height: 14rem;
+    width: 14rem;
+}
+
+.texto__galeria1{
+    color: #111920; 
+    font-family: "Poppins", Sans-serif;
+    grid-area: Descripción;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10vh;
+    text-align: justify;
+    
+}
