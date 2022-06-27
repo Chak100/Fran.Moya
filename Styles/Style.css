@@ -202,7 +202,6 @@ box-sizing:border-box;
     box-sizing: border-box;
     padding: 20px 30px 20px;
     margin: 50px 50px 50px 50px;
-       
 }
 
 .textbanner1{
@@ -618,7 +617,7 @@ footer{
     font-weight: 600;
     text-align: center;
     margin-left: 5vh;
-    background-color: #f7f6D9;
+    background-color:linear-gradient(top to bottom, orangered white);
 }
 
 .opciones__menu{
@@ -661,7 +660,7 @@ justify-content: center;
     margin-top: 5vh;
     padding: 10px;
     text-align: left;
-    background-color: #F7F6D9;
+    background-color:linear-gradient(top to bottom, aquamarine white);
 }
 
 .contenedor__menu1{
