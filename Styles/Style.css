@@ -580,7 +580,7 @@ footer{
     margin-right: 5vh;
 }
 
-/* Sección Menu */
+/* ----------------SECCIÓN MENU------------------- */
 
 .texto__menu1 {
     color: black;
@@ -627,10 +627,9 @@ footer{
 
 }
 
- .section__menu{
+.section__menu{
     background-image: url(../Fotos/fondo\ de\ pantalla\ comida.jpg);
-    backdrop-filter: opacity(80%);
-   
+
 }
 
 .opciones__menu h4{
@@ -646,6 +645,13 @@ footer{
     
 }
 
+.opciones__menu h4 :hover{
+font-size: 5rem;
+display: block;
+justify-content: center;
+}
+
+
 .texto__menu3{
     color: #111920; 
     font-family: "Poppins", Sans-serif;
@@ -656,8 +662,6 @@ footer{
     padding: 10px;
     text-align: left;
     background-color: #F7F6D9;
-
-
 }
 
 .contenedor__menu1{
@@ -678,8 +682,14 @@ footer{
     padding: 5px;
 }
 
+.opciones__menu img :hover{
+    width: 800;
+    display: flex;
+    justify-content: center;
+}
 
-/* ----------GALERIA----------- */
+
+/* ----------------GALERIA----------------- */
 
 .main__grid-galeria{
     display: grid;
