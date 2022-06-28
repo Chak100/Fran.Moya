@@ -622,11 +622,7 @@ footer{
     font-weight: 600;
     text-align: center;
     margin-left: 5vh;
-<<<<<<< HEAD
-    background-color:linear-gradient(top to bottom, orangered white);
-=======
     background-color: beige;
->>>>>>> develop
 }
 
 .opciones__menu{
@@ -666,11 +662,7 @@ justify-content: center;
     margin-top: 5vh;
     padding: 10px;
     text-align: left;
-<<<<<<< HEAD
-    background-color:linear-gradient(top to bottom, aquamarine white);
-=======
     background-color: beige;
->>>>>>> develop
 }
 
 .contenedor__menu1{
