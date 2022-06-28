@@ -581,13 +581,18 @@ footer{
 
 /* ----------------SECCIÓN MENU------------------- */
 
+.texto__inicio p{
+    text-align: justify center;
+}
+
 .texto__menu1 {
     color: black;
     font-family: "Poppins", Sans-serif;
     font-size: 4vh;
     font-weight: 200;
-    margin: 5rem;
+    margin: 1rem;
     text-align: center;
+    background-image: linear-gradient(rgb(21, 212, 212), white)
 }
 
 .titulo__menu{
@@ -617,7 +622,11 @@ footer{
     font-weight: 600;
     text-align: center;
     margin-left: 5vh;
+<<<<<<< HEAD
     background-color:linear-gradient(top to bottom, orangered white);
+=======
+    background-color: beige;
+>>>>>>> develop
 }
 
 .opciones__menu{
@@ -626,10 +635,7 @@ footer{
 
 }
 
-.section__menu{
-    background-image: url(../Fotos/fondo\ de\ pantalla\ comida.jpg);
 
-}
 
 .opciones__menu h4{
     color: orangered; 
@@ -660,7 +666,11 @@ justify-content: center;
     margin-top: 5vh;
     padding: 10px;
     text-align: left;
+<<<<<<< HEAD
     background-color:linear-gradient(top to bottom, aquamarine white);
+=======
+    background-color: beige;
+>>>>>>> develop
 }
 
 .contenedor__menu1{
@@ -681,13 +691,16 @@ justify-content: center;
     padding: 5px;
 }
 
-.opciones__menu img :hover{
-    width: 800;
-    display: flex;
-    justify-content: center;
+.contenedor__menu1 img:hover{
+transform: scale(2.5);
+transition-duration: 2s;
 }
 
-
+.contenedor__menu2 img:hover{
+    transform: scale(2.5);
+    transition-duration: 2s;
+    }
+    
 /* ----------------GALERIA----------------- */
 
 .main__grid-galeria{
