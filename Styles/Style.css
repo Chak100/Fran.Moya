@@ -117,6 +117,41 @@ box-sizing:border-box;
         list-style: none;
         } */
 
+
+#hero-container {
+    height: 100vh;
+
+    background-image:url(../Fotos/mesa_ssd.JPEG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    }
+
+#hero-container::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top:  0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0)
+
+}
+
+h3 a{
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    color: #fd3b00;
+    list-style: none;
+}
+
+
     .logo__shanti{
         align-items: center;
             
@@ -148,12 +183,12 @@ box-sizing:border-box;
     .textbanner1{
         display: block;
         align-items: center;
-  
+
     } 
     .textbanner2{
         display: block;
         align-items: center;
-  
+
     } 
 }
     
@@ -431,11 +466,11 @@ footer{
 }
 
 .footer__1-lista a{
-   list-style: none;
-   line-height: 30px;
-   text-decoration: none;
-   color: black;
-   margin-top: 10px;
+    list-style: none;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
 }
 
 .footer__1-lista li {
@@ -468,7 +503,7 @@ footer{
     color: black;
     font-size: 50px;
         
- }
+}
 
 /* -------------------------Contacto y presupuesto------------------------- */
 
