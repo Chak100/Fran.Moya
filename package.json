@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_-coder_franciscomoya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/main.scss styles/style2.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chak100/Francisco-Moya---Proyecto-Coder.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Francisco Moya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chak100/Francisco-Moya---Proyecto-Coder/issues"
+  },
+  "homepage": "https://github.com/Chak100/Francisco-Moya---Proyecto-Coder#readme"
+}
