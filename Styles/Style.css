@@ -18,55 +18,7 @@
     border-bottom: 1px solid #fff
 }
 
-.encabezado {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    -ms-flex-align: center;
-    justify-content: space-between;
-    height: 65px;
-    padding: 13PX 0px;
-    align-content: center;
-    z-index: 11;
-    position: fixed;
-    box-sizing: border-box;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #FFFFFF
-}
 
-
-.encabezado__elemento {
-    align-items: center;
-    text-align: center;
-}
-
-.encabezado__elemento-img {
-    width: 30px;
-    box-sizing: border-box;
-    text-align: center;
-    margin-right: 5px;
-    padding: 5px;
-}
-
-.encabezado__contenedor {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: auto;
-    font-size: 1.5rem;
-    background-color: #FFFFFF;
-    align-items: center;
-    width: 100%;
-    top: 0;
-    border-color: gray;
-    border-width: 1px;
-    list-style: none;
-    margin-left: 49vh;
-
-}
 
 
 .logo__shanti {
@@ -504,7 +456,7 @@ h3 a {
 }
 
 /*--------------------------------------------------------------
-# Book a table button Menu
+# Reserva mesa
 --------------------------------------------------------------*/
 .book-a-table-btn {
     margin: 0 0 0 15px;
