@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="catering, eventos, fingerfood, pizza party, cumpleaños, comida gourmet, asado gourmet; empresa de eventos; servicio de comida">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="../Styles/bootstrap.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="shortcut icon" href="../Fotos/Logo_shanti.PNG">
         <link rel="stylesheet" href="../Styles/Style.css">
         <title>Shanti Caterings - Experiencia Gourmet</title>
@@ -16,48 +17,45 @@
     </head>
 
 <body>
-    <div class="encabezado">
-        <ul>
-            <div class="encabezado__contenedor">
-                    <li class="encabezado__elemento">               
-                        <span><img src="../Fotos/bx-phone.svg" alt="telefono"> 15-5311-8974</span>
-                    </li>
-                    <li>
-                        <span><img src="../Fotos/bx-envelope.svg" alt="logo de mail">shanticaterings@gmail.com </span>
-                    </li>
-            </div>
-        </ul>
-            
-    </div>
-    
-    <!--Titulo y nav-->
-    <header>
-        <div class="logo__shanti">
-            <img src="../Fotos/Logo_shanti.PNG" alt="Logo_shanti">
-        </div>
-        <nav class="nav">
-            <ul class="nav__ul">
-                <li class="nav__li"><a href="../index.html"> Inicio </a></li>
-                <li class="nav__li"><a href="./Shanti.html">Shanti</a></li>
-                <li class="nav__li"><a href="./Menu.html">Menú</a></li>
-                <li class="nav__li"><a href="./Galeria.html">Galeria</a></li>
-                <li class="nav__li"><a href="./Contacto_y_presupuesto.html">Contacto y presupuesto</a></li>
-            </ul>
-            <ul class="nav__responsive-ul">
-                <div class="nav__responsive-li-container">
-                    <li class="nav__responsive-li"> <a href="../index.html"> Inicio </a> </li>
-                    <li class="nav__responsive-li"><a href="./Shanti.html">Shanti</a></li>
-                    <li class="nav__responsive-li"><a href="./Menu.html">Menú</a></li>
-                    <li class="nav__responsive-li"><a href="./Galeria.html">Galeria</a></li>
-                    <li class="nav__responsive-li"><a href="./Contacto_y_presupuesto.html">Contacto y
-                            presupuesto</a></li>
-                </div>
-            </ul>
-        </nav>
-        <div class="texto__inicio">
-            <p> Bienvenidos a Shanti Catering , un lugar donde vas a encontar las mejores opciones para tus eventos,
-                también podes contactarnos y armamos tu evento a medida! </p>
-        </div>
+    <header id="header" class="header d-flex justify-content-right">
+        <nav class="navbar navbar-expand-lg navbar-light white border-bottom">
+            <div class="container d-flex ">
+                <a class="navbar-brand" href="#"> <img src="../Fotos/Logo_shanti.PNG" alt="Logo Marca" class="w-50"></a>
+                <button class="navbar-toggler sm-text-align-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Shanti.html">Shanti</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="Menu.html">Tratoria</a></li>
+                                <li><a class="dropdown-item" href="Menu.html">Asado Gourmet</a></li>
+                                <li><a class="dropdown-item" href="Menu.html">Finger Food</a></li>
+                                <li><a class="dropdown-item" href="Menu.html">Burger party</a></li>
+                                <li><a class="dropdown-item" href="Menu.html">Cazuelas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contacto_y_presupuesto.html">Contacto y
+                                presupuesto</a>
+                        </li>
+                    </ul>
+        </Nav>
     </header>
     <Main class="main__contacto">
         <div>
@@ -118,36 +116,67 @@
         
     </Main>
 
-    <footer>
-        <section class="piepagina">
-            <div class="footer__1">
-                <h4>NAVEGACION</h4>
-                <ul class="footer__1-lista">
-                    <li><a href="index.html"> Inicio </a> </li>
-                    <li><a href="./Secciones/Shanti.html">Shanti</a></li>
-                    <li><a href="./Secciones/Menu.html">Menú</a></li>
-                    <li><a href="./Secciones/Galeria.html">Galeria</a></li>
-                    <li><a href="./Secciones/Contacto_y_presupuesto.html">Contacto y presupuesto</a></li>
-                </ul>
-            </div>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row justify-content-evenly">
 
-            <Div class="footer__2">
-                <h4>CONTACTANOS</h4>
-                    <P><i> <box-icon type='solid' name='envelope'></box-icon></i>shanticaterings@gmail.com</P>
-                    <P><i> <box-icon type='solid' name='phone'></box-icon></i>11-5311-8974</P>
-            </Div>
-            
-            <div class="footer__3">
-                <h4>REDES SOCIALES</h4>
-                    <a href="https://www.instagram.com/shanti.caterings/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://www.facebook.com/lasantasedegourmet" target="_blank"><i class='bx bxl-facebook'></i></box-icon></a>
-                    <a href="https://wa.me/5491153118974" target="_blank"> <i class='bx bxl-whatsapp'></i></box-icon></a>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>SANTI CATERING</h3>
+                            <p>
+                                Lomas de Zamora <br>
+                                PS 1832, Argentina<br><br>
+                                <strong>Telefono:</strong> +55 11-5311-8974<br>
+                                <strong>Email:</strong> shanticaterings@gmail.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="https://www.facebook.com/lasantasedegourmet" class="facebook"
+                                    target="_blank"><i class="bx bxl-facebook"></i></a>
+                                <a href="https://www.instagram.com/shanti.caterings/" class="instagram"
+                                    target="_blank"><i class="bx bxl-instagram"></i></a>
+                                <a href="https://wa.me/5491153118974" class="whatsapp" target="_blank"><i
+                                        class="bx bxl-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Inicio</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="Shanti.html">Shanti</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="Menu.html">Menu</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="Galeria.html">Galeria</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a
+                                    href="./Secciones/Contacto_y_presupuesto.html">Contacto y presupuesto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Novedades</h4>
+                        <p>Recibi novedades de nuestras nuevas propuestas</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Suscribete">
+                        </form>
+
+                    </div>
+
+                </div>
             </div>
-            
-        </section>
-        
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Shanti Catering</span></strong>. Todos los derechos reservados
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+    <script src="./JS/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
